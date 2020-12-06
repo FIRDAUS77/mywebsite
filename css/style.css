@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+    
+} 
+body{
+    width: 100%;
+    background-image: url("../images/background.jpg");
+     
+}
+
+nav{
+    width: 100%;
+}
+.bg-navbar{
+    background-color: blueviolet;
+}
+.firdaus{
+    color: transparent;
+    color:white;
+
+    font-size: 26px;
+    font-weight: bold;
+    
+    
+    text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgba(77,77,77,1);
+}
+.firdaus:hover{
+    text-decoration: none;
+    color: rgb(212, 40, 40);
+    text-shadow: -4px 4px white, -3px 3px white, -2px 2px white, -1px 1px white, 0px 0px white, 1px -1px white, 2px -2px white;
+}
+.container{
+    margin-top: 2vw;
+    margin-bottom: 120px;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.hov{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 1.7vw;
+    color: white;
+}
+.hov:hover{
+    color: rgb(5, 253, 5);
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}
+.navbar-nav {
+    margin-right: 5%;
+}
+
+.container:after {
+    content: "";
+    background-color: black;
+    clear: both;
+}
+.column1 {
+   float: left;
+   width: 75%;
+   background: linear-gradient(45deg, #87adfe,#ff77cd);
+   border-radius: 80px;
+   padding: 10px 10px;
+   box-shadow: 7px 7px 5px 0px #19191a;
+   margin-bottom: 80px;
+   -webkit-border-radius: 80px;
+   -moz-border-radius: 80px;
+   -ms-border-radius: 80px;
+   -o-border-radius: 80px;
+}
+
+.column2 {
+	float: right;
+    width: 25%;
+    
+}
+.column2 .me{
+    border-radius: 30%;
+    margin-top: 25%;
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
+    box-shadow: -7px -7px 5px 0px #353038, 7px 7px 5px 0px #2f2f3d;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+.column2 .me:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+.visitor{
+    font-size:4vw;
+    text-align: center;
+}
+.ahmed{
+    font-size:5vw;
+    text-align: center;
+    
+}
+.work{
+    font-size:4vw;
+    line-break: auto;
+    text-align: center;
+}
+.program{
+    margin-top: 47%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    background:linear-gradient(45deg, #87adfe,#ff77cd);
+    border: 3px solid #fff;
+    padding: 20px;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+.javascript{
+    padding-top: 2.4vw;
+}
+.c{
+    padding-top: 1.2vw; 
+}
+
+.web{
+    display: inline-block;
+    clear: both;
+    width: 30%;
+    max-height:30vw;
+    margin:.5% .7%;
+    background-color: rgb(241, 221, 221);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.web:hover{
+    width: 30%;
+    padding-top: 1vw;
+    box-shadow: -7px -7px 5px 0px #353038, 7px 7px 5px 0px #2f2f3d;
+
+}
+
+.web img{
+    clear: both;
+    width: 80%;
+    height: 50%;
+    margin: 3% 10%;
+    border-radius: 5%;
+   
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.web h5{
+    font-size: 1.2vw;
+    word-break: break-all;
+    text-align: center;
+}
+.web p{
+    font-size: .5vw;
+    text-align: center;
+}
+.skils{
+    margin:.2vw 1vw;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(24, 23, 23), -2px -2px 2px rgb(24, 23, 23);
+
+}
+.footer{
+    clear: both;
+    color: black;
+    font-size: 17px;
+    background:linear-gradient(45deg, #87adfe,#ff77cd);
+    
+}
+.footer a{
+    
+    margin: 5px 15px;
+}
+.fab{
+    font-size: 30px;
+}
+.fab:hover{
+    font-size: 50px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.fa-facebook-f{
+color: rgb(50, 50, 182);
+}
+.fa-github{
+    color: rgb(10, 10, 10);
+}
+.fa-google-plus-g{
+    color: rgb(243, 71, 71);
+}
+.fa-linkedin-in{
+    color: darkblue;
+}
+.fa-instagram-square{
+    color: rgb(216, 45, 68);
+    
+}
+
+.progress{
+    margin: 0px 5px ;
+
+}
+.tag{
+    margin: 12px;
+}
+
